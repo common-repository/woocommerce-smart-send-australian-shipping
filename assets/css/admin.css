@@ -1,0 +1,29 @@
+#wpbody-content > *:not(#iframe_dashboard, .banner-to-settings),
+#wpfooter{
+    display: none;
+}
+#wpbody-content{
+    padding-bottom: 0;
+}
+#iframe_dashboard{
+    width: 100%;
+    height: calc(100vh - 32px);
+}
+#wpcontent{
+    padding-left: 0;
+}
+
+.banner-to-settings {
+    margin: 50px auto 2em;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    color: #444;
+    padding: 1em 2em;
+    max-width: 700px;
+}
+.banner-to-settings .message {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 25px 0 20px;
+    text-align: center;
+}
